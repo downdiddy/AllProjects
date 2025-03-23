@@ -1,0 +1,10 @@
+            - name: SonarQube Scan for C and C++
+  # You may pin to the exact commit or the version.
+  # uses: SonarSource/sonarqube-github-c-cpp@e51317d858d1117fe6c451aa441841cb3e3ff358
+  uses: SonarSource/sonarqube-github-c-cpp@v2.1.0
+  with:
+    # Directory where the sonar-scanner and build wrapper will be installed. Created if does not exists.
+    installation-path: # optional, default is .sonar
+    # Controls if installed binaries are cached using GitHub cache.
+    cache-binaries: # optional, default is true
+          
